@@ -3,8 +3,11 @@ class TeachersController < ApplicationController
     @placeholder_course = '186'
   end
 
-  def create
+  #def create
     # Hint: params??
-    render 'show'
-  end
+  #  @full_name = params[:full_name]
+  #  @course = params[:course_name]
+  #  @grade_level = params[:grade_level]
+  #  render 'show'
+  #end
 end
